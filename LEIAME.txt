@@ -20,3 +20,8 @@ http://localhost:9091
 http://localhost:18081
 
 
+jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
+
+docker exec dsa-spark-master-yarn spark-submit --master yarn --deploy-mode cluster ./apps/projeto3.py
+
+
