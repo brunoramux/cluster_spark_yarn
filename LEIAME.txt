@@ -2,7 +2,7 @@
 # Preparação do Ambiente de Trabalho - Multi-Node Cluster Spark e HDFS
 
 # Inicializar o cluster
-docker compose -f docker-compose.yml up -d --scale spark-worker-yarn=3
+docker compose -f docker-compose.yml up -d --scale spark-worker-yarn=1
 
 # Visualizar os logs
 docker compose logs
